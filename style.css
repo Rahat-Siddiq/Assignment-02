@@ -1,0 +1,52 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav{
+    background-color: #FFFBF0;
+}
+nav img{
+    width: 400px;
+    height: 50px;
+}
+nav a{
+    color: black;
+    font-weight: 700;
+}
+header{
+    background-color: #FFFBF0;
+}
+header section img{
+    width: 300px;
+}
+section .woman-img{
+    height: 400px;
+    background-color: #F1F1F1;
+}
+.fashion-card{
+    border: 0;
+}
+.fashion-footer{
+    background-color: #fff;
+    border: 0;
+}
+.card-border{
+    border-radius: 15px;
+}
+.fashion-btn{
+    background-color: #99B236;
+    color: white;
+}
+.abt-section img{
+    width: 500px;
+}
+.abt-sec{
+    border: 0;
+}
+.about-image>img{
+    width: 50px;
+}
