@@ -23,9 +23,11 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container-fluid container">
-                <a class="navbar-brand" href="#">
-                    <img src="image/Group 33072.png" alt="">
-                </a>
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                      <img src="Image/Group 33072.png" alt="" width="30" height="24">
+                    </a>
+                  </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -36,13 +38,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Product</a>
+                            <a class="nav-link" href="#product">Product</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About US</a>
+                            <a class="nav-link" href="#about">About US</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact US</a>
+                            <a class="nav-link" href="#contact">Contact US</a>
                         </li>
                     </ul>
                 </div>
@@ -72,7 +74,7 @@
     <main class="container">
 
         <!-- Women Jacket Section Goes Here -->
-        <section class="mt-5">
+        <section id="product" class="mt-5">
             <h2>WOMAN JACKET</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
                 <div class="col shadow">
@@ -201,13 +203,13 @@
         </section>
 
         <!-- About Section Goes -->
-        <section class="container mt-5">
+        <section id="about" class="container mt-5">
             <div class="d-flex">
               <div class="row bd-highlight w-100 me-5 g-5">
               <div class="col-md-6">
-                <div class="p-2 flex-grow-1 bd-highlight d-flex align-items-center for-shadow mb-3">
+                <div class="p-2 flex-grow-1 bd-highlight d-flex align-items-center for-shadow mb-3  rounded-3 shadow">
                   <div class="for-left-img">
-                    <img class="img-fluid" src="Logo, Icon/image 12.png" alt="">
+                    <img class="img-fluid p-2" src="Image/image 13.png" alt="" width="60" height="30">
                   </div> 
                   <div class="for-contetnt">
                     <h2>Find the Perfect Fit</h2>
@@ -215,9 +217,9 @@
                      offer styles for every body.</p>
                   </div>
                  </div>
-                 <div class=" p-2 flex-grow-1 bd-highlight d-flex align-items-center for-shadow mb-3">
+                 <div class=" p-2 flex-grow-1 bd-highlight d-flex align-items-center for-shadow mb-3  rounded-3 shadow">
                    <div class="for-left-img">
-                     <img class="img-fluid" src="Logo, Icon/image 12.png" alt="">
+                     <img class="img-fluid p-2" src="Image/image 13.png" alt="" width="60" height="30">
                    </div> 
                    <div class="for-contetnt">
                      <h2>Free Exchanges</h2>
@@ -225,9 +227,9 @@
                       with peace of mind.</p>
                    </div>
                   </div>
-                  <div class=" p-2 flex-grow-1 bd-highlight d-flex align-items-center for-shadow">
+                  <div class=" p-2 flex-grow-1 bd-highlight d-flex align-items-center for-shadow  rounded-3 shadow">
                    <div class="for-left-img">
-                     <img class="img-fluid" src="Logo, Icon/image 12.png" alt="">
+                     <img class="img-fluid p-2" src="Image/image 14.png" alt="" width="60" height="30">
                    </div> 
                    <div class="for-contetnt">
                      <h2>Contact Our Seller</h2>
@@ -236,7 +238,7 @@
                    </div>
                   </div>
               </div>
-              <div class="col-md-6 for-img-right">
+              <div class="col-md-6 for-img-right d-flex align-items-center">
                     <img src="Image/XMLID 1.png"alt="" width="450px" height="250px">
               </div>
             </div>
@@ -271,6 +273,26 @@
                     </div>
                 </div>
             </div>
+          </section>
+
+          <section id="contact" class="container mt-5 bg-info">
+            <h2 class="text-center p-2">Contact US</h2>
+            <form class="mt-5 p-3">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
           </section>
     </main>
 
